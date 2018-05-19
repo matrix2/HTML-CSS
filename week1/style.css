@@ -1,0 +1,110 @@
+body{
+    background-color:#8181836e; 
+    background-image: url("gray.jpg"); 
+    margin:0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    
+
+}
+#bar1 {
+    margin-top: 0;
+    background-color: #021629; 
+    text-align: center;
+    border:solid 5px #021629; 
+    border-bottom-width: 6px; 
+    overflow:auto;
+    border-bottom-color: silver;
+    
+    
+    
+    
+}
+#mainul{
+    list-style-type: none;
+    display:inline-flex;
+    font-size: 20px;
+    color:gray;
+    margin-left:27%;
+    
+
+}
+
+.rightmen{
+    margin-left:50px;
+    border:solid 10px;
+    border-image: url("gray.jpg");
+    
+}
+#logo1{
+    margin-top:4px;
+    float: left;
+    margin-left:18%;
+}
+a{
+    text-decoration:  none;
+    color:rgb(230, 223, 223);
+    
+}
+
+.maindv{
+    float: left;
+    top:50px;
+    left:150px;
+    width:70%;
+    background-color: whitesmoke;
+  
+}
+
+.container {
+    border:solid 50px;
+    border-image: url("dig.jpg"); 
+    width: 60%;
+    overflow: auto;
+    
+    display: flex;
+    margin-left: 18%;
+    margin-top: 4%;
+    color:white;
+    line-height: 20px;
+    
+  }
+  #leftdv{
+    border:solid 10px #2d4e6d;
+    background-image: url("gray.jpg");
+    
+  }
+  #mypic{
+      margin-left:55px;
+      padding-left: 0px;
+      margin-right: 0px; 
+      margin-top:10px; 
+       
+  }
+  #downld{
+    margin-left:50px;
+    margin-top:30px;
+  }
+  #anasinfo{
+      margin-left: 0px;
+      background-image: url("dig.jpg");
+      padding-left: 25px;
+      
+  }
+  table{
+    
+    border-collapse: separate;
+  }
+  td{
+    padding-right: 100px;
+  }
+  .socialicons{
+    padding-right: 20px; 
+  }
+  @media only screen and (max-width: 800px) {
+    body {
+        background-color: lightblue;
+    }
+}
