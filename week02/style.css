@@ -8,12 +8,7 @@
     height:0px; /* fixed header height*/
     margin:80px 0 0; /* negative fixed header height */
   }
-  .wrapper:target::before {
-    content:"";
-    display:block;
-    height:0px; /* fixed header height*/
-    margin:80px 0 0; /* negative fixed header height */
-  }
+ 
 body {
     background-color: #F2F3F4;
     position: absolute;
