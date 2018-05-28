@@ -47,7 +47,7 @@ body {
 
 .container {
     background-color: #fff;
-    margin-LEFT: 13%;
+    margin: 40px auto;
     WIDTH:70%;
     margin-top:110px;
     padding:2px;
